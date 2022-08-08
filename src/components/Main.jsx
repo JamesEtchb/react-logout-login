@@ -1,7 +1,7 @@
-export default function Main () {
-    return(
-        <main>
-            <h1>Main</h1>
-        </main>
-    )
+export default function Main({ name }) {
+  return (
+    <main>
+      <h1>Hello {name}</h1>
+    </main>
+  )
 }
